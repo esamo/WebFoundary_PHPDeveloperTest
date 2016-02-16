@@ -23,13 +23,13 @@ CALLING THE API
 
 ... happens by sending to the api.php HTTP GET or POST request with following (url-encoded) parameters:
 
-&user = [email_address]  
-&action = listConversations | viewConversation | sendMessage  
+> &user = [email_address]  
+> &action = listConversations | viewConversation | sendMessage  
   
 Action sendMessage requires additionally:  
-&title = [title]  
-&content = [content]  
-&receipient = [email_address]  
+> &title = [title]  
+> &content = [content]  
+> &receipient = [email_address]  
 
 Action viewConversation requires additionally:  
-&receipient = [email_address]  
+> &receipient = [email_address]  
